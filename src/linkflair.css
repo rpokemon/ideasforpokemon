@@ -1,4 +1,4 @@
-.linkflairlabel {
+.thing > div > p > span.linkflairlabel {
     position: absolute!important;
     left: -12px;
     transform: rotate(-90deg);
