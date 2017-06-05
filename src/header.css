@@ -5,6 +5,18 @@
     border-bottom: none;
 }
 
+#sr-header-area {
+    height: 24px;
+    line-height: 24px;
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+#RESShortcutsEditContainer, #RESShortcutsSort, #RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd {
+    background: transparent!important;
+}
+
 #header-img {
     margin: 0 8px 0 8px;
     width: 40px !important;
@@ -57,5 +69,194 @@
     border-radius: 4px 4px 0 0;
     background-color: #fafafa;
     font-weight: bold;
+    opacity: 1;
+}
+
+#header-bottom-right {
+    height: 30px;
+    margin-bottom: 0;
+    padding: 0 20px;
+    background: transparent;
+    font-size: 11px;
+    letter-spacing: 0.48px;
+    line-height: 30px;
+    transform: translate3d(0, 0, 0);
+    transition: transform 100ms ease;
+    bottom: unset!important;
+    top: 32px!important;
+}
+
+#header-bottom-right #RESAccountSwitcherIcon:hover,
+#header-bottom-right #mail:hover,
+#header-bottom-right #modmail:hover,
+#header-bottom-right #new_modmail:hover,
+#header-bottom-right a.pref-lang:hover,
+#header-bottom-right #RESSettingsButton:hover,
+.loggedin .logout a:hover {
+    transform: scale(1.15)
+}
+
+#header-bottom-right a {
+    color: #FFFFFF;
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+
+#header-bottom-right a:hover {
+    text-decoration: underline !important;
+}
+
+#header-bottom-right .user a.login-required {
+    color: #0069e1
+}
+
+#header-bottom-right .user a.login-required:before {
+    content: "";
+}
+
+.loggedin #header-bottom-right .user {
+    color: transparent;
+    margin-right: -8px;
+}
+
+#header-bottom-right .user {
+    position: relative;
+    top: -2px;
+}
+
+#header-bottom-right .user a {
+    font-weight: 700 !important;
+    margin-right: 0px;
+    padding-right: 0px
+}
+
+#header-bottom-right .user .userkarma {
+    color: #D8D8D8;
+    font-weight: 500 !important;
+    margin-left: 0px;
+    padding-left: 0px
+}
+
+#header-bottom-right .user .userkarma:before {
+    content: "(";
+    display: inline-block;
+    margin-right: 0;
+    color: #D8D8D8;
+    background-position: 0 0;
+}
+
+#header-bottom-right .user .userkarma:after {
+    content: ")";
+    display: inline-block;
+    margin-right: 4px;
+    color: #D8D8D8;
+    background-position: 0 0;
+}
+
+#header-bottom-right .separator {
+    visibility: hidden;
+}
+
+#header-bottom-right #RESAccountSwitcherIcon,
+#header-bottom-right #mail,
+#header-bottom-right #modmail,
+#header-bottom-right #new_modmail,
+#header-bottom-right #RESSettingsButton {
+    height: 24px;
+    width: 24px;
+    background-image: url(%%header-imgsheet%%);
+    background-size: auto 24px;
+    background-color: transparent;
+    border-radius: 2px;
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+
+#header-bottom-right #mail {
+    top: 4px;
+}
+
+#header-bottom-right #mail.nohavemail {
+    background-position: -48px 0;
+}
+
+#header-bottom-right #mail.havemail {
+    background-position: -24px 0;
+}
+
+#header-bottom-right .message-count {
+    background-color: #FA3E3E;
+    color: #fff !important;
+    border-radius: 2px;
+    font-size: 10px;
+    letter-spacing: 0.3;
+    line-height: 14px;
+    font-weight: bold;
+    padding: 0px 2px 0px 3px;
+    height: 15px;
+    position: relative;
+    top: -9px;
+    left: -5px;
+    margin: 0px;
+    z-index: 100
+}
+
+#header-bottom-right #modmail,
+#header-bottom-right #new_modmail {
+    top: -3px;
+}
+
+#header-bottom-right #modmail.nohavemail {
+    background-position: -72px 0;
+}
+
+#header-bottom-right #modmail.havemail {
+    background-position: -96px 0;
+}
+
+#header-bottom-right #new_modmail.nohavemail {
+    background-position: -120px 0;
+}
+
+#header-bottom-right #new_modmail.havemail {
+    background-position: -144px 0;
+}
+
+#header-bottom-right a.pref-lang,
+.loggedin .logout a {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    margin: 0px;
+    height: 24px;
+    width: 24px;
+    text-indent: -9999px;
+    background-image: url(%%header-imgsheet%%);
+    background-size: auto 24px;
+    border-radius: 2px;
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+
+#header-bottom-right a.pref-lang {
+    background-position: -168px 0;
+    top: -2px;
+}
+
+#header-bottom-right #RESSettingsButton {
+    background-position: -192px 0;
+    top: 2px;
+}
+#header-bottom-right #RESSettingsButton:after {
+    content: none;
+}
+
+.loggedin .logout a {
+    background-position: -216px 0px;
+    top: -2px;
+}
+
+#header-bottom-right a.pref-lang:hover,
+.loggedin .logout a:hover {
     opacity: 1;
 }

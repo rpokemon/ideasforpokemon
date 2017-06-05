@@ -19,6 +19,13 @@
     display: none
 }
 
+.submit.mod-override .morelink a:after {
+    background-image: url(%%header-imgsheet%%)!important;
+    background-size: auto 16px;
+    background-position: -96px;
+}
+
 .sidebox.create {
     display: none;
 }
+
