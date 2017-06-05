@@ -1,9 +1,8 @@
 {
     "authors": [
-        "/u/kwwxis",
         "/u/Haruka-sama"
     ],
-    "build": 2,
+    "build": 4,
     "css_directory": "src",
     "files": [
         "header.css",
