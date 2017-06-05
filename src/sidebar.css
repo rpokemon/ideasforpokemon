@@ -1,0 +1,24 @@
+.morelink {
+    background-color: #01579B;
+    color: #ffffff;
+    border: none;
+    background-image: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+.morelink:hover {
+    border: none;
+    background-image: none;
+}
+
+.morelink a {
+    color: #ffffff;
+}
+
+.nub {
+    display: none
+}
+
+.sidebox.create {
+    display: none;
+}

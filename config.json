@@ -1,0 +1,17 @@
+{
+    "authors": [
+        "/u/kwwxis",
+        "/u/Haruka-sama"
+    ],
+    "build": 1,
+    "css_directory": "src",
+    "files": [
+        "header.css",
+        "sidebar.css",
+        "thing.css",
+        "linkflair.css"
+    ],
+    "minified_file": "dist.css",
+    "name": "/r/IdeasForPokemon",
+    "unminified_file": "build.css"
+}

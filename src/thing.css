@@ -1,0 +1,15 @@
+body {
+    background-color: #fafafa;
+}
+
+.link.thing, .comment.thing {
+    padding: 4px 4px 4px 4px;
+    margin: 4px 314px 12px 4px!important;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+.link {
+    border-left: #424242 solid 20px;
+}

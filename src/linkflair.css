@@ -1,0 +1,31 @@
+.linkflairlabel {
+    position: absolute!important;
+    left: -12px;
+    transform: rotate(-90deg);
+    margin-top: 16px;
+    border: none;
+    width: 56px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: transparent;
+    font-size: 8px;
+}
+
+.link.linkflair-feedback {
+    border-left-color: #F57F17;
+}
+
+.link.linkflair-question {
+    border-left-color: #01579B;
+}
+
+.link.linkflair-suggestion {
+    border-left-color: #B71C1C;
+}
+
+.link.linkflair-modpost {
+    border-left-color: #1B5E20;
+}

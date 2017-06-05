@@ -1,0 +1,37 @@
+#header {
+    background-image: url(%%header-splash%%);
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+#header-img {
+    margin: 0 8px 0 8px;
+    width: 40px !important;
+    height: 135px !important;
+    background-image: url(%%reddit-snoo%%) !important;
+    background-size: 80px;
+    background-position: 0 0 !important;
+}
+
+#header-img:hover {
+    background-position: -40px 0 !important;
+}
+
+.pagename {
+    font-size: 0;
+}
+
+.pagename a {
+    font-size: 0;
+    display: inline-block;
+    width: 280px;
+    height: 135px;
+
+    background-image: url(%%header-logo%%);
+    background-size: 280px;
+    background-position: 0 0;
+}
+
+.pagename a:hover {
+    background-position: 0 -135px;
+}
