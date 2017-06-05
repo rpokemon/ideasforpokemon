@@ -230,7 +230,7 @@
     margin: 0px;
     height: 24px;
     width: 24px;
-    text-indent: -9999px;
+    color: transparent!important;
     background-image: url(%%header-imgsheet%%);
     background-size: auto 24px;
     border-radius: 2px;
@@ -256,7 +256,23 @@
     top: -2px;
 }
 
-#header-bottom-right a.pref-lang:hover,
-.loggedin .logout a:hover {
-    opacity: 1;
+.RESDropdownList {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+.RESDropdownList li {
+    border: none !important;
+    color: #000000;
+}
+
+#RESAccountSwitcherIconOverlay {
+    display: none!important;
+}
+
+.RESDropdownList li:hover, .RESDropdownList a:hover {
+    color: initial!important;
+    text-decoration: underline;
+    background-color: transparent!important;
 }
