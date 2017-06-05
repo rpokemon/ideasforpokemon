@@ -117,6 +117,7 @@
 .loggedin #header-bottom-right .user {
     color: transparent;
     margin-right: -8px;
+    margin-left: 4px;
 }
 
 #header-bottom-right .user {
@@ -275,4 +276,28 @@
     color: initial!important;
     text-decoration: underline;
     background-color: transparent!important;
+}
+
+.res #userbarToggle {
+    background: transparent;
+    border: 0;
+    line-height: 34px;
+    height: 30px;
+    left: 0;
+}
+
+.beta-hint {
+    position: absolute;
+    left: -30px;
+    top: 0;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+}
+.beta-hint a {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
